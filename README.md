@@ -1,17 +1,17 @@
 # Projet Protfolio 
 
-> Je suis étudiante en Techniques Graphiques à la HEPL. Ce repo servira de dossier de base pour mon _projet porfolio_ qui est le projet principale du cours de Design Web (TD).
+> Je suis étudiante en Techniques Graphiques à la HEPL. Ce repo servira de dossier de base pour mon _projet portfolio_ qui est le projet principale du cours de Design Web (TD).
 > * Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
 ***
 
-## Conceptes et idées
+## Concepts et idées
 
 - One Page (autres pages : 404 pour erreur et des pages externes pour voir les projets présentés)
 - Dark/Light mode (Pour le dark = ciel étoilé, et le light un ciel clair avec des Sparkles)
-- avoir une petite illustration isometric pour la Landing Page
-- avoir un Typing Effect :D
+- une petite illustration isométrique pour la Landing Page
+- Typing Effect (landing page aussi)
 - Sites avec option de choisir la Langue 
-- Stikcy Nav
+- Sticky Nav au scroll 
 
 ***
 
