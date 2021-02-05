@@ -17,3 +17,14 @@
 
 ## Autres fichiers Markdown
 ### 1. [Moodboard](./md/MOODBOARD.md)
+
+*** 
+
+## Sites avec des idées 
+
+- [awwwards](https://www.awwwards.com/)
+- [CodePen](https://codepen.io/)
+- [Dribbble](https://dribbble.com/)
+- [Behance](https://www.behance.net/)
+- [Site inspire](https://www.siteinspire.com/)
+- [80 freemium ressources - IG Post](https://www.instagram.com/p/B-o8AYqAysN/?igshid=12dahniui9rw7)
