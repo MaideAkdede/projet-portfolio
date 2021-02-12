@@ -1,5 +1,5 @@
 # Moodboard
-> Les concepts et idées sont listés [ici](../.)
+> Les concepts et idées sont listés [ici](https://github.com/MaideAkdede/projet-portfolio)
 > * Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
 > * Lien du Moodboard Invision [TODO : faire un mb sur In]
 * * *
