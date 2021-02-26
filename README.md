@@ -29,12 +29,12 @@
 ## 2. Concept
 
 1. Public Cible
-  - Professionnel (trouver un travail/stage)
-  - Tout le monde (comprenne qui je suis et ce que je fais)
+    - Professionnel (trouver un travail/stage)
+    - Tout le monde (comprenne qui je suis et ce que je fais)
 2. Objectif
-  - Accessible à tous (responsive, changement de langue)
-  - Animation pas trop visible
-  - j'aimerai que ma grand mère puisse comprendre sans trop de difficulté
+    - Accessible à tous (responsive, changement de langue)
+    - Animation pas trop visible
+    - j'aimerai que ma grand mère puisse comprendre sans trop de difficulté
 
 
 ***
