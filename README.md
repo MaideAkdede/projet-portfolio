@@ -6,7 +6,24 @@
 
 [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
 
-## 1. Structure
+## 1. Présentation (TODO: à completer)
+
+
+## 2. Public Cible
+
+- Professionnel (trouver un travail/stage)
+- Tout le monde (comprenne qui je suis et ce que je fais)
+
+## 3. Cahier des charges (TODO: à completer)
+
+2. Objectif
+    - Accessible à tous (responsive, changement de langue)
+    - Animation pas trop visible
+    - j'aimerai que ma grand mère puisse comprendre sans trop de difficulté
+
+
+
+## 4. Plan du site
 
 - Page d'accueil un peu style one page qui résume les autres pages
   - Menu avec mon nom prénom + lien qui renvois vers des sections de la page ou autres pages
@@ -26,38 +43,24 @@
   - Languages utilisés
   - logo 'voir projet sur github'
 
-## 2. Concept
-
-1. Public Cible
-    - Professionnel (trouver un travail/stage)
-    - Tout le monde (comprenne qui je suis et ce que je fais)
-2. Objectif
-    - Accessible à tous (responsive, changement de langue)
-    - Animation pas trop visible
-    - j'aimerai que ma grand mère puisse comprendre sans trop de difficulté
-
-
 ***
 
-
-***
 ## Notes
 
 1. Sites avec des idées
+  - [awwwards](https://www.awwwards.com/)
+  - [CodePen](https://codepen.io/)
+  - [Dribbble](https://dribbble.com/)
+  - [Behance](https://www.behance.net/)
+  - [Site inspire](https://www.siteinspire.com/)
+  - [80 freemium ressources - IG Post](https://www.instagram.com/p/B-o8AYqAysN/?igshid=12dahniui9rw7)
+  - [Lapa.Ninja](https://www.lapa.ninja/)
 
-- [awwwards](https://www.awwwards.com/)
-- [CodePen](https://codepen.io/)
-- [Dribbble](https://dribbble.com/)
-- [Behance](https://www.behance.net/)
-- [Site inspire](https://www.siteinspire.com/)
-- [80 freemium ressources - IG Post](https://www.instagram.com/p/B-o8AYqAysN/?igshid=12dahniui9rw7)
-- [Lapa.Ninja](https://www.lapa.ninja/)
 
 2. Sources intéressantes (à lire/conserver)
-
-- [Evolution of Web Design and Development 1990-2019](https://redstapler.co/evolution-webdev-webdesign-1990-2019/)
-- [Button design for websites and mobile apps](https://www.justinmind.com/blog/button-design-websites-mobile-apps/)
-- [Buttons in UI Design (2016)](https://gigazine.net/gsc_news/en/20160728-button-ui-design/)
-- [A comprehensive guide to designing UX buttons](https://www.invisionapp.com/inside-design/comprehensive-guide-designing-ux-buttons/)
-- [Ghost Buttons: UX Disaster or Effective Design?](https://cxl.com/blog/ghost-buttons/)
-- [Top 25 CSS Buttons (+ animations)](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
+  - [Evolution of Web Design and Development 1990-2019](https://redstapler.co/evolution-webdev-webdesign-1990-2019/)
+  - [Button design for websites and mobile apps](https://www.justinmind.com/blog/button-design-websites-mobile-apps/)
+  - [Buttons in UI Design (2016)](https://gigazine.net/gsc_news/en/20160728-button-ui-design/)
+  - [A comprehensive guide to designing UX buttons](https://www.invisionapp.com/inside-design/comprehensive-guide-designing-ux-buttons/)
+  - [Ghost Buttons: UX Disaster or Effective Design?](https://cxl.com/blog/ghost-buttons/)
+  - [Top 25 CSS Buttons (+ animations)](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
