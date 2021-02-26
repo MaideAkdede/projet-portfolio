@@ -4,26 +4,46 @@
 > * Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
 ***
 
-## Concepts et idées
+[Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
 
-- One Page (autres pages : 404 pour erreur et des pages externes pour voir les projets présentés)
-- Dark/Light mode (Pour le dark = ciel étoilé, et le light un ciel clair avec des Sparkles)
-- une petite illustration isométrique pour la Landing Page
-- Typing Effect (landing page aussi)
-- Sites avec option de choisir la Langue
-- Sticky Nav au scroll
+## 1. Structure
+
+- Page d'accueil un peu style one page qui résume les autres pages
+  - Menu avec mon nom prénom + lien qui renvois vers des sections de la page ou autres pages
+  - proposer un changement de langue fr/en
+  - Mon status "étudiante en web design" (typing effect)
+  - avec une courte description
+  - un bouton contactez moi
+  - au scroll on verra affiché les projets une image + courte description du projet qui renvois vers la page du projet
+  - une section avec un formulaire pour me contacter
+  - un footer
+    - lien vers réseaux sociaux
+- Page d'un projet
+  - Une image 'screen' du site réalisé
+  - bouton pour afficher le site
+  - description du projet
+  - présentation brève du client et ses attentes
+  - Languages utilisés
+  - logo 'voir projet sur github'
+
+## 2. Concept
+
+1. Public Cible
+  - Professionnel (trouver un travail/stage)
+  - Tout le monde (comprenne qui je suis et ce que je fais)
+2. Objectif
+  - Accessible à tous (responsive, changement de langue)
+  - Animation pas trop visible
+  - j'aimerai que ma grand mère puisse comprendre sans trop de difficulté
+
 
 ***
 
-## Autres fichiers Markdown
-
-### 1. [Moodboard MD début](./md/MOODBOARD.md)
-### 2. [Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
-### 3. [Plan du site (TODO)](./md/PLAN_SITE.md)
 
 ***
+## Notes
 
-## Sites avec des idées
+1. Sites avec des idées
 
 - [awwwards](https://www.awwwards.com/)
 - [CodePen](https://codepen.io/)
@@ -33,7 +53,7 @@
 - [80 freemium ressources - IG Post](https://www.instagram.com/p/B-o8AYqAysN/?igshid=12dahniui9rw7)
 - [Lapa.Ninja](https://www.lapa.ninja/)
 
-## Sources intéressantes (à lire)
+2. Sources intéressantes (à lire/conserver)
 
 - [Evolution of Web Design and Development 1990-2019](https://redstapler.co/evolution-webdev-webdesign-1990-2019/)
 - [Button design for websites and mobile apps](https://www.justinmind.com/blog/button-design-websites-mobile-apps/)
