@@ -17,7 +17,7 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
   - Tout le monde (puisse comprendre qui je suis et ce que je fais)
 
 ***
-## 3. Cahier des charges (TODO: à completer)
+## 3. Cahier des charges
 
 
   - Site en une seul page (one page)
@@ -31,7 +31,7 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
       - envisager de design un personnage pour me représenter
       - donner un côté humain au site
   - Typing effect sur le titre
-  - Police féminine élégante
+  - Police féminine élégante pour les titres h1
   - Menu sticky
   - Données du site gérées via le CMS Wordpress
   - Je n'y mettrai ni mon n° de tel ni l'adresse de mon domicile
@@ -41,7 +41,7 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
 
 - **Page d'accueil** : One Page
 
-  1. **Barre de menu** (stikcy)
+  1. **Barre de Navigation** (sticky)
       - logo (ou nom prénom)
       - lien qui renvoies vers les autres sections du site (accueil, à propos, projets, contact)
       - bouton pour changer de langue fr/en
@@ -70,6 +70,8 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
 
 
 - **Page d'un projet**
+
+  - Barre de navigation (incluse)
   - titre du projet
   - Une image 'screen' de la landing page
   - description du projet
@@ -78,7 +80,7 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
   - présentation brève du client et ses attentes
   - Languages utilisés en forme de tag
 
-  
+
 ***
 
 ## Notes
