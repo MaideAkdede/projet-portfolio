@@ -1,14 +1,17 @@
 # Projet Portfolio
 
-> Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
-
-> [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
+> - Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
+- [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
+- [Voir prototype du Wirefrale sur Figma](https://www.figma.com/proto/cOStMv5i71WCXRan9UENLg/Maide---Portfolio---Wireframe?node-id=0%3A1&scaling=min-zoom)
+- [Voir le prototype du Design sur Figma](https://www.figma.com/proto/2k3LKrrU1XuKrCThmkhKRT/Maide---Portfolio---DESIGN?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1)
 
 ***
 ## 1. Présentation
 
-Projet portfolio, est un projet scolaire qui consiste à designer et développer notre propre portfolio en ligne.
-Le but principale est de mettre en avant nos compétences et nos qualités afin de pousser notre futur employeur à nous engager ou encore attirer des futurs clients. Le portfolio comprend donc une brève présentation de nous-même et une liste de tous nos projets réalisés.
+Le Projet portfolio, est un projet scolaire qui consiste à designer et développer notre propre portfolio en ligne.
+Le but principal est de mettre en avant nos compétences et nos qualités afin de pousser notre futur employeur à nous engager ou encore attirer des futurs clients. Le portfolio comprend donc une brève présentation de nous-même et une liste de tous nos projets réalisés.
+
+> [Consignes](https://github.com/hepl-dw/projet-portfolio#quelques-consignes)
 
 ***
 ## 2. Public Cible
@@ -19,11 +22,13 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
 ***
 ## 3. Cahier des charges
 
-
   - Site en une seul page (one page)
+      - Chaque section prendra la hauteur de la page
+      - Au scroll, faire un full page scroll
   - Animation d'arrière plan pas trop imposante, légère, discrète, sobre
   - Site mode dark
   - lister les projets dans la page
+      - Slider Horizontale
       - ces projets listés doivent être cliquables
       - permettre d'ouvrir la page du projet afin de lire en détail
   - Site multilingue (FR/EN et plus si y a moyen)
@@ -42,25 +47,22 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
 - **Page d'accueil** : One Page
 
   1. **Barre de Navigation** (sticky)
-      - logo (ou nom prénom)
-      - lien qui renvoies vers les autres sections du site (accueil, à propos, projets, contact)
-      - bouton pour changer de langue fr/en
-  2. **Contenu landing**
-      - Mon status "étudiante en web design" (typing effect)
+      - logo : Prénom Nom
+      - liens pour renvoyer aux différentes desction de la page : Accueil | `Accueil  | Projets | À propos | Contact`
+      - bouton pour changer de langue `Fr|En`
+  2. **Contenu de la landing, première section**
+      - Mon status "étudiante en web design" (typing effect?)
       - Une brève et courte description de moi + mes fonctions
-      - flèche qui indique qu'il faut scroller
-      - mettre 1 cta pour "voir les projets"
-  2. **À propos**
-      - titre de la section
-      - Une description de qui je suis et ce que j'ai fait et ce que je fais
-      - mettre 1 cta pour "me contacter"
-  3. **Projets**
+      - 2 CTA : `Contactez-moi` | `Vois mes projets`
+  3. **Section des Projets**
       - Titre de la section
-      - des div qui montre un aperçu du projet
+      - images d'un projet
       - titre du projet
-      - description du projets
-      - bouton "voir le projet"
-  4. **Contact**
+      - au hover : `voir le projet | en savoir plus`
+  4. **Section À propos**
+      - titre de la section
+      - Une description de moi
+  4. **Section Contact**
       - titre de la section
       - Texte qui pousse à interagir: contactez-moi si vous avez des questions, suggestions, CV etc
       - formulaire de contact
@@ -71,17 +73,14 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
 
 - **Page d'un projet**
 
-  - Barre de navigation (incluse)
-  - titre du projet
+  - Menu Navigation
+  - Titre du projet
   - Une image 'screen' de la landing page
   - description du projet
   - bouton CTA pour afficher le site
-  - pour en savoir plus vous pouvez 'voir projet sur github'
-  - présentation brève du client et ses attentes
-  - Languages utilisés en forme de tag
-
-
-***
+  - Proposer 3 dernières projets à voir
+  - CTA "voir tous les projets"
+<!--
 
 ## Notes
 
@@ -109,3 +108,4 @@ Le but principale est de mettre en avant nos compétences et nos qualités afin 
     - ThreeJS
     - Isometric draw
     - 3d
+    -->
