@@ -1,9 +1,9 @@
 # Projet Portfolio
 
 > - Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
-- [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
-- [Voir prototype du Wirefrale sur Figma](https://www.figma.com/proto/cOStMv5i71WCXRan9UENLg/Maide---Portfolio---Wireframe?node-id=0%3A1&scaling=min-zoom)
-- [Voir le prototype du Design sur Figma](https://www.figma.com/proto/2k3LKrrU1XuKrCThmkhKRT/Maide---Portfolio---DESIGN?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1)
+> - [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
+> - [Voir prototype du Wirefrale sur Figma](https://www.figma.com/proto/cOStMv5i71WCXRan9UENLg/Maide---Portfolio---Wireframe?node-id=0%3A1&scaling=min-zoom)
+> - [Voir le prototype du Design sur Figma](https://www.figma.com/proto/2k3LKrrU1XuKrCThmkhKRT/Maide---Portfolio---DESIGN?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1)
 
 ***
 ## 1. Présentation
@@ -80,6 +80,7 @@ Le but principal est de mettre en avant nos compétences et nos qualités afin d
   - bouton CTA pour afficher le site
   - Proposer 3 dernières projets à voir
   - CTA "voir tous les projets"
+
 <!--
 
 ## Notes
