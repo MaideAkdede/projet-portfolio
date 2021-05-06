@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php if (is_front_page()){
-            echo 'Portfolio• ';
+            echo 'Maïde Akdede • ';
             echo bloginfo('description');
         } else {
             wp_title('Portfolio • ');
@@ -18,6 +18,6 @@
 </head>
 <body>
 <header class="top">
-    <h1 class="top__title sro"><?= is_front_page() ? 'Accueil' : trim(wp_title('Portfolio • ')); ?></h1>
+    <h1 class="top__title sro"><?= is_front_page() ? bloginfo('description') . ' de Maïde Akdede • Accueil': trim(wp_title('Portfolio • ')); ?></h1>
 
 </header>
