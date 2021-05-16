@@ -7,3 +7,16 @@
   padding: 0;
   border: 0;
 }
+body{
+  background: black;
+  color: white;
+  font-family: $text;
+  font-weight: lighter;
+}
+h2{
+  font-family: $subtitle;
+  font-weight: $weight_medium;
+}
+p{
+  line-height: $size_26;
+}
