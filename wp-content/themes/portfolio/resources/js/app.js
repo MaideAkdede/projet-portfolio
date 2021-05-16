@@ -1,1 +1,1 @@
-console.log('App')
+import './parts/stars';
