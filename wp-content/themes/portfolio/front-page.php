@@ -1,16 +1,37 @@
 <?php get_header(); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <main class="content">
-        <header class="content__hero">
-            <h2 class="content__title">Ceci est le hero</h2>
-            <p class="content__tagline"><?php bloginfo('description'); ?></p>
-        </header>
-        <div class="content__wysiwyg"><?php the_content(); ?></div>
-
-    </main>
-<?php endwhile; else : ?>
-    <div class="empty">
-        <p class="empty__message">Oups, nous n'avons rien à afficher.</p>
+<section class="projects">
+    <h2 class="projects__title title"> Mes projets</h2>
+    <div class="projects__container">
+        <?php
+        $projects = new WP_Query([
+            'post_type' => 'project',
+            'posts_per_page' => 100,
+            'order' => 'desc',
+        ]);
+        if ($projects->have_posts()) : while ($projects->have_posts()) :
+        $projects->the_post(); ?>
+        <article class="project">
+            <h3 class="project__name"><?php the_title(); ?></h3>
+            <div class="project__thumbnail">
+                <?php $image = get_field('project_thumbnail'); ?>
+                <img class="project__thumbnail__img" src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
+                     width="300">
+            </div>
+            <a href="<?php the_permalink(); ?>" class="project__link">
+                <span>Voir le projet</span>
+            </a>
     </div>
-<?php endif; ?>
+    <?php endwhile; endif; ?>
+</section>
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <section class="about">
+        <h2 class="about__title title">À propos</h2>
+        <div class="about__wysiwyg"><?php the_content(); ?></div>
+    </section>
+<?php endwhile; endif;?>
+
+<section class="contact">
+    <h2 class="contact__title title"> Contactez-moi</h2>
+</section>
 <?php get_footer(); ?>

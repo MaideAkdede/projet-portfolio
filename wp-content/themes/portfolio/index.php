@@ -7,7 +7,7 @@
     </main>
 <?php endwhile; else : ?>
     <div class="empty">
-        <h2>Cette page n'existe pas :( </h2>
+        <p class="empty__message">Oops, nous n'avons rien à afficher.</p>
     </div>
 <?php endif; ?>
 <?php get_footer(); ?>
