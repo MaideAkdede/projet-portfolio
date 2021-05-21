@@ -3,10 +3,18 @@
     <main class="single-project">
         <h1 class="single-project__title"><?php the_title(); ?></h1>
 
-        <p class="single-project__excerpt"><?php the_excerpt(); ?></p>
+        <div class="single-project__excerpt">
+            <p class="excerpt__p"><?php the_excerpt(); ?></p>
+            <a href="<?= get_field('website_url'); ?>">Voir le site</a>
+        </div>
         <div class="single-project__image">
             <?php $image = get_field('project_image'); ?>
-            <img class="" src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>" width="300">
+            <img alt="<?= $image['alt']; ?>"
+                 src="<?= $image['sizes']['medium']; ?>"
+                 srcset="<?= $image['sizes']['medium']; ?> 300w,
+                         <?= $image['sizes']['medium_large']; ?> 768w,
+                         <?= $image['sizes']['large']; ?> 1024w"
+            />
         </div>
 
         <div class="single-project__wysiwyg">
@@ -42,8 +50,11 @@ if ($projects->have_posts()) : while ($projects->have_posts()) :
 
         <div class="other-project__thumbnail">
             <?php $image = get_field('project_thumbnail'); ?>
-            <img class="project__thumbnail__img" src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
-                 width="300">
+            <img alt="<?= $image['alt']; ?>"
+                 src="<?= $image['sizes']['thumbnail']; ?>"
+                 srcset="<?= $image['sizes']['thumbnail']; ?> 150w,
+                                     <?= $image['sizes']['medium']; ?> 300w"
+            />
         </div>
         <a href="<?php the_permalink(); ?>" class="other-project__link">
             <span>Voir le projet</span>
