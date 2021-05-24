@@ -15,11 +15,11 @@
                 <div class="project__thumbnail">
 
                     <?php $image = get_field('project_thumbnail');?>
-                        <img alt="<?= $image['alt']; ?>"
-                             src="<?= $image['sizes']['thumbnail']; ?>"
-                             srcset="<?= $image['sizes']['thumbnail']; ?> 150w,
+                    <img alt="<?= $image['alt']; ?>"
+                         src="<?= $image['sizes']['thumbnail']; ?>"
+                         srcset="<?= $image['sizes']['thumbnail']; ?> 150w,
                                      <?= $image['sizes']['medium']; ?> 300w"
-                        />
+                    />
 
                 </div>
                 <a href="<?php the_permalink(); ?>" class="project__link">
