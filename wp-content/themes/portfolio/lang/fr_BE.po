@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Projet Portfolio Traduction\n"
+"POT-Creation-Date: 2021-05-24 22:16+0200\n"
+"PO-Revision-Date: 2021-05-24 22:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:2
+msgid "Pied de page"
+msgstr "Pied de page"
+
+#: footer.php:4
+msgid "Langues"
+msgstr "Langues"
+
+#: footer.php:8
+msgid "Adresse mail"
+msgstr "Adresse mail"
+
+#: front-page.php:3
+msgid "Mes projets"
+msgstr "Mes projets"
+
+#: front-page.php:26 single-project.php:60
+msgid "Voir le projet"
+msgstr "Voir le projet"
+
+#: front-page.php:35
+msgid "À propos"
+msgstr "À propos"
+
+#: front-page.php:41
+msgid "Contactez-moi"
+msgstr "Contactez-moi"
+
+#: header.php:26
+msgid "Navigation principale"
+msgstr "Navigation principale"
+
+#: header.php:32
+msgid "Le site est actuellement en"
+msgstr "Le site est actuellement en"
+
+#: single-project.php:8
+msgid "Voir le site"
+msgstr "Voir le site"
+
+#: single-project.php:24
+msgid "Palette de couleur"
+msgstr "Palette de couleur"
+
+#: single-project.php:36
+msgid "Aucun projet n'a été trouvé."
+msgstr "Aucun projet n’a été trouvé."
+
+#: single-project.php:49
+msgid "Mes derniers projets"
+msgstr "Mes derniers projets"

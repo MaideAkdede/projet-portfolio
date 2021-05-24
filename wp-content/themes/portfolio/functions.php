@@ -1,5 +1,26 @@
 <?php
 /* *****
+ * Return the defined polylang languages
+ * *****/
+function pll_languages()
+{
+    return pll_the_languages([
+        'raw' => 1
+    ]);
+}
+/* *****
+ * Return the defined current polylang language
+ * *****/
+
+function p_current_language()
+{
+    foreach (pll_languages() as $lang) {
+        if($lang['current_lang']) return $lang;
+    }
+    return null;
+}
+
+/* *****
  * Return a Menu Structure
  * *****/
 
@@ -8,18 +29,20 @@ function p_menu($location)
     $locations = get_nav_menu_locations();
     $menu = $locations[$location];
     $links = wp_get_nav_menu_items($menu);
-    $links = array_map(function($post){
+    $links = array_map(function ($post) {
         $link = new \stdClass();
 
         $link->url = $post->url;
         $link->label = $post->title;
-
+        $link->classes = $post->classes;
         return $link;
+
     }, $links);
 
     return $links;
-
 }
+
+
 /* *****
  * Register navigation menus
  * *****/
@@ -72,4 +95,12 @@ function disable_gutenberg_editor()
 function p_assets($path)
 {
     return rtrim(get_template_directory_uri(), '/') . '/public/' . ltrim($path, '/');
+}
+/* *****
+ * Load text domain
+ * *****/
+add_action('after_setup_theme', 'p_load_textdomain');
+
+function p_load_textdomain() {
+    load_textdomain('p', get_stylesheet_directory() . '/lang/' . get_locale() . '.mo');
 }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section class="projects">
-        <h2 class="projects__title title"> Mes projets</h2>
+        <h2 class="projects__title title"><?= __('Mes projets', 'p');?></h2>
         <div class="projects__container">
             <?php
             $projects = new WP_Query([
@@ -23,7 +23,7 @@
 
                 </div>
                 <a href="<?php the_permalink(); ?>" class="project__link">
-                    <span>Voir le projet</span>
+                    <span><?= __('Voir le projet', 'p');?></span>
                 </a>
         </div>
         <?php endwhile;
@@ -32,12 +32,12 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <section class="about">
-        <h2 class="about__title title">À propos</h2>
+        <h2 class="about__title title"><?= __('À propos', 'p');?></h2>
         <div class="about__wysiwyg"><?php the_content(); ?></div>
     </section>
 <?php endwhile; endif; ?>
 
     <section class="contact">
-        <h2 class="contact__title title"> Contactez-moi</h2>
+        <h2 class="contact__title title"><?= __('Contactez-moi', 'p');?></h2>
     </section>
 <?php get_footer(); ?>
