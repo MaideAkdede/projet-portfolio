@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Projet Portfolio Traduction\n"
-"POT-Creation-Date: 2021-05-24 22:16+0200\n"
-"PO-Revision-Date: 2021-05-24 22:16+0200\n"
+"POT-Creation-Date: 2021-05-25 18:10+0200\n"
+"PO-Revision-Date: 2021-05-25 18:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -23,46 +23,58 @@ msgstr "Pied de page"
 msgid "Langues"
 msgstr "Langues"
 
-#: footer.php:8
+#: footer.php:20
 msgid "Adresse mail"
 msgstr "Adresse mail"
 
-#: front-page.php:3
-msgid "Mes projets"
-msgstr "Mes projets"
+#: footer.php:21
+msgid "Contactez-moi par mail"
+msgstr "Contactez-moi par mail"
 
-#: front-page.php:26 single-project.php:60
-msgid "Voir le projet"
-msgstr "Voir le projet"
+#: front-page.php:4
+msgid "Développeur Front-End"
+msgstr "Développeur Front-End"
 
-#: front-page.php:35
-msgid "À propos"
-msgstr "À propos"
-
-#: front-page.php:41
+#: front-page.php:8 front-page.php:55
 msgid "Contactez-moi"
 msgstr "Contactez-moi"
 
-#: header.php:26
+#: front-page.php:11 front-page.php:17
+msgid "Mes projets"
+msgstr "Mes projets"
+
+#: front-page.php:40 single-project.php:61
+msgid "Voir le projet"
+msgstr "Voir le projet"
+
+#: front-page.php:49
+msgid "À propos"
+msgstr "À propos"
+
+#: header.php:27
 msgid "Navigation principale"
 msgstr "Navigation principale"
 
-#: header.php:32
+#: header.php:33
 msgid "Le site est actuellement en"
 msgstr "Le site est actuellement en"
 
-#: single-project.php:8
+#: index.php:10
+msgid "Vous vous êtes perdu ?"
+msgstr "Vous vous êtes perdu ?"
+
+#: single-project.php:9
 msgid "Voir le site"
 msgstr "Voir le site"
 
-#: single-project.php:24
+#: single-project.php:25
 msgid "Palette de couleur"
 msgstr "Palette de couleur"
 
-#: single-project.php:36
+#: single-project.php:37
 msgid "Aucun projet n'a été trouvé."
 msgstr "Aucun projet n’a été trouvé."
 
-#: single-project.php:49
+#: single-project.php:50
 msgid "Mes derniers projets"
 msgstr "Mes derniers projets"

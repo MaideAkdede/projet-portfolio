@@ -7,7 +7,7 @@
     </main>
 <?php endwhile; else : ?>
     <div class="empty">
-        <p class="empty__message">Oops, nous n'avons rien à afficher.</p>
+        <p class="empty__message"><?= __('Vous vous êtes perdu ?', 'p'); ?></p>
     </div>
 <?php endif; ?>
 <?php get_footer(); ?>

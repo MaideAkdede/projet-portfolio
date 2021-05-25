@@ -1,6 +1,20 @@
 <?php get_header(); ?>
+
+    <section class="introduction">
+        <h2 class="introduction__title"><?= __('Développeur Front-End', 'p'); ?></h2>
+        <p class="introduction__text"><?php the_field('introduction_text'); ?></p>
+        <div class="introduction__buttons">
+            <div class="introduction__button button__contact button">
+                <a href=""><?= __('Contactez-moi', 'p'); ?></a>
+            </div>
+            <div class="introduction__button button__project button">
+                <a href=""><?= __('Mes projets', 'p'); ?></a>
+            </div>
+        </div>
+    </section>
+
     <section class="projects">
-        <h2 class="projects__title title"><?= __('Mes projets', 'p');?></h2>
+        <h2 class="projects__title title"><?= __('Mes projets', 'p'); ?></h2>
         <div class="projects__container">
             <?php
             $projects = new WP_Query([
@@ -14,7 +28,7 @@
                 <h3 class="project__name"><?php the_title(); ?></h3>
                 <div class="project__thumbnail">
 
-                    <?php $image = get_field('project_thumbnail');?>
+                    <?php $image = get_field('project_thumbnail'); ?>
                     <img alt="<?= $image['alt']; ?>"
                          src="<?= $image['sizes']['thumbnail']; ?>"
                          srcset="<?= $image['sizes']['thumbnail']; ?> 150w,
@@ -23,7 +37,7 @@
 
                 </div>
                 <a href="<?php the_permalink(); ?>" class="project__link">
-                    <span><?= __('Voir le projet', 'p');?></span>
+                    <span><?= __('Voir le projet', 'p'); ?></span>
                 </a>
         </div>
         <?php endwhile;
@@ -32,12 +46,12 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <section class="about">
-        <h2 class="about__title title"><?= __('À propos', 'p');?></h2>
+        <h2 class="about__title  title"><?= __('À propos', 'p'); ?></h2>
         <div class="about__wysiwyg"><?php the_content(); ?></div>
     </section>
 <?php endwhile; endif; ?>
 
     <section class="contact">
-        <h2 class="contact__title title"><?= __('Contactez-moi', 'p');?></h2>
+        <h2 class="contact__title title"><?= __('Contactez-moi', 'p'); ?></h2>
     </section>
 <?php get_footer(); ?>
