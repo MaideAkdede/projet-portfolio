@@ -14,9 +14,14 @@ body{
   font-weight: lighter;
 }
 h2{
-  font-family: $subtitle;
+  font-family: $title;
   font-weight: $weight_medium;
 }
-p{
-  line-height: $size_26;
+section{
+  min-height: calc(100vh - 58px);
+  padding-top: $size_64;
+  margin: 0 $size_24;
+}
+.main{
+  min-height: 100vh;
 }
