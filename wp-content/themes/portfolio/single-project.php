@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-    <main class="single-project">
+    <div class="single-project">
         <h1 class="single-project__title"><?php the_title(); ?></h1>
 
         <div class="single-project__excerpt">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-    </main>
+    </div>
 <?php endwhile;
 else : ?>
     <div class="empty">

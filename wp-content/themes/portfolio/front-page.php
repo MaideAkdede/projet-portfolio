@@ -1,19 +1,20 @@
 <?php get_header(); ?>
 
     <section class="introduction">
-        <h2 class="introduction__title"><?= __('Développeur Front-End', 'p'); ?></h2>
+        <h2 class="introduction__title__hidden"><?= __('Développeur Front-End', 'p'); ?></h2>
+        <p class="introduction__title"></p>
         <p class="introduction__text"><?php the_field('introduction_text'); ?></p>
         <div class="introduction__buttons">
-            <div class="introduction__button button__contact button">
-                <a href=""><?= __('Contactez-moi', 'p'); ?></a>
+            <div class="introduction__button button__contact">
+                <a href="#contact" class="button button__filled"><?= __('Contactez-moi', 'p'); ?></a>
             </div>
-            <div class="introduction__button button__project button">
-                <a href=""><?= __('Mes projets', 'p'); ?></a>
+            <div class="introduction__button button__project">
+                <a href="#projects" class="button button__unfilled"><?= __('Voir mes projets', 'p'); ?></a>
             </div>
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2 class="projects__title title"><?= __('Mes projets', 'p'); ?></h2>
         <div class="projects__container">
             <?php
@@ -45,13 +46,13 @@
     </section>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <section class="about">
+    <section class="about" id="about">
         <h2 class="about__title  title"><?= __('À propos', 'p'); ?></h2>
         <div class="about__wysiwyg"><?php the_content(); ?></div>
     </section>
 <?php endwhile; endif; ?>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="contact__title title"><?= __('Contactez-moi', 'p'); ?></h2>
     </section>
 <?php get_footer(); ?>

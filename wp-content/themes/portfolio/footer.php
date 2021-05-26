@@ -1,3 +1,4 @@
+</main>
 <footer class="footer">
     <h2 class="sro"><?= __('Pied de page', 'p');?></h2>
     <div>
