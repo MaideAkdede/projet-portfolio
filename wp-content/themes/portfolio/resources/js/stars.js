@@ -1,3 +1,8 @@
+/*
+* Improved and adapted until I start redoing something similar from scratch
+* Credits goes to the owner
+* Copyright (c) 2021 by Giana (https://codepen.io/giana/pen/qbWNYy)
+* */
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d'),
     body = document.querySelector('body'),
@@ -5,14 +10,12 @@ var canvas = document.getElementById('canvas'),
     w = canvas.width = window.innerWidth ,
     h = canvas.height = window.innerHeight,
 
-    hue = 217,
+    hueArray = [230, 255],
+    hue = hueArray[Math.floor(Math.random() * hueArray.length)],
     stars = [],
     count = 0,
     maxStars = 2000;
 
-window.addEventListener('resize',()=>{
-
-});
 var canvas2 = document.createElement('canvas'),
     ctx2 = canvas2.getContext('2d');
 canvas2.width = canvas.width;
@@ -20,12 +23,12 @@ canvas2.height = canvas.height;
 
 var half = canvas.width / 2,
     gradient = ctx.createRadialGradient(half, half, 0, half, half, half);
-gradient.addColorStop(0.025, '#fff');
+gradient.addColorStop(0.025, '#ffffff');
 gradient.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
 gradient.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
 gradient.addColorStop(1, 'transparent');
 
-ctx2.fillStyle = gradient;
+ctx2.fillStyle = gradient ;
 ctx2.beginPath();
 ctx2.arc(half, half, half, 0, Math.PI * 2);
 ctx2.fill();
@@ -40,7 +43,7 @@ function maxOrbit(x, y) {
 var Star = function () {
 
     this.orbitRadius = Math.random() * maxOrbit(w, h);
-    this.radius = Math.random() * this.orbitRadius / 18;
+    this.radius = Math.random() * this.orbitRadius / 10 ;
     this.orbitX = w / 2;
     this.orbitY = h / 2;
     this.timePassed = Math.random() * maxStars;
@@ -70,10 +73,15 @@ for (var i = 0; i < maxStars; i++) {
     new Star();
 }
 function animation() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
     for (var i = 1, l = stars.length; i < l; i++) {
         stars[i].draw();
     }
     window.requestAnimationFrame(animation);
 }
+window.addEventListener('resize',()=>{
+    this.w = canvas.width = window.innerWidth;
+    this.h = canvas.height = window.innerHeight;
+});
 animation();
