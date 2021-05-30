@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Projet Portfolio Traduction\n"
-"POT-Creation-Date: 2021-05-25 18:10+0200\n"
-"PO-Revision-Date: 2021-05-25 18:12+0200\n"
+"POT-Creation-Date: 2021-05-29 01:01+0200\n"
+"PO-Revision-Date: 2021-05-29 01:05+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: footer.php:2
+#: footer.php:3
 msgid "Pied de page"
 msgstr "Footer"
 
-#: footer.php:4
+#: footer.php:5
 msgid "Langues"
 msgstr "Languages"
 
-#: footer.php:20
+#: footer.php:21
 msgid "Adresse mail"
 msgstr "E-mail address"
 
-#: footer.php:21
+#: footer.php:22
 msgid "Contactez-moi par mail"
 msgstr "Send me an e-mail"
 
@@ -35,27 +35,43 @@ msgstr "Send me an e-mail"
 msgid "Développeur Front-End"
 msgstr "Front-End Web Developer"
 
-#: front-page.php:8 front-page.php:55
+#: front-page.php:10 front-page.php:89 index.php:23
 msgid "Contactez-moi"
-msgstr "Contact"
+msgstr "Get in Touch"
 
-#: front-page.php:11 front-page.php:17
+#: front-page.php:19
+msgid "Voir mes projets"
+msgstr "View my projects"
+
+#: front-page.php:28 front-page.php:35
+msgid "Accéder à la section suivante"
+msgstr "Go to the next section"
+
+#: front-page.php:36
+msgid "Faites défiler pour voir le contenu suivant"
+msgstr "Scroll to see the next content"
+
+#: front-page.php:47
 msgid "Mes projets"
 msgstr "My projects"
 
-#: front-page.php:40 single-project.php:61
+#: front-page.php:72 single-project.php:61
 msgid "Voir le projet"
-msgstr "Read the project"
+msgstr "Go to the project"
 
-#: front-page.php:49
+#: front-page.php:82
 msgid "À propos"
 msgstr "About me"
 
-#: header.php:27
+#: header.php:30
 msgid "Navigation principale"
 msgstr "Main Navigation"
 
-#: header.php:33
+#: header.php:39
+msgid "Changer de langue"
+msgstr "Change the language"
+
+#: header.php:40
 msgid "Le site est actuellement en"
 msgstr "The website is in"
 
@@ -63,9 +79,13 @@ msgstr "The website is in"
 msgid "Vous vous êtes perdu ?"
 msgstr "Seems like you got lost..."
 
+#: index.php:18
+msgid "Retourner à l‘accueil"
+msgstr "Go back home"
+
 #: single-project.php:9
 msgid "Voir le site"
-msgstr "Lauch the website"
+msgstr "View the website"
 
 #: single-project.php:25
 msgid "Palette de couleur"

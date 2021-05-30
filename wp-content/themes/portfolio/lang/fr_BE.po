@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Projet Portfolio Traduction\n"
-"POT-Creation-Date: 2021-05-25 18:10+0200\n"
-"PO-Revision-Date: 2021-05-25 18:11+0200\n"
+"POT-Creation-Date: 2021-05-29 01:01+0200\n"
+"PO-Revision-Date: 2021-05-29 01:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: footer.php:2
+#: footer.php:3
 msgid "Pied de page"
 msgstr "Pied de page"
 
-#: footer.php:4
+#: footer.php:5
 msgid "Langues"
 msgstr "Langues"
 
-#: footer.php:20
+#: footer.php:21
 msgid "Adresse mail"
 msgstr "Adresse mail"
 
-#: footer.php:21
+#: footer.php:22
 msgid "Contactez-moi par mail"
 msgstr "Contactez-moi par mail"
 
@@ -35,33 +35,53 @@ msgstr "Contactez-moi par mail"
 msgid "Développeur Front-End"
 msgstr "Développeur Front-End"
 
-#: front-page.php:8 front-page.php:55
+#: front-page.php:10 front-page.php:89 index.php:23
 msgid "Contactez-moi"
 msgstr "Contactez-moi"
 
-#: front-page.php:11 front-page.php:17
+#: front-page.php:19
+msgid "Voir mes projets"
+msgstr "Voir mes projets"
+
+#: front-page.php:28 front-page.php:35
+msgid "Accéder à la section suivante"
+msgstr "Accéder à la section suivante"
+
+#: front-page.php:36
+msgid "Faites défiler pour voir le contenu suivant"
+msgstr "Faites défiler pour voir le contenu suivant"
+
+#: front-page.php:47
 msgid "Mes projets"
 msgstr "Mes projets"
 
-#: front-page.php:40 single-project.php:61
+#: front-page.php:72 single-project.php:61
 msgid "Voir le projet"
 msgstr "Voir le projet"
 
-#: front-page.php:49
+#: front-page.php:82
 msgid "À propos"
 msgstr "À propos"
 
-#: header.php:27
+#: header.php:30
 msgid "Navigation principale"
 msgstr "Navigation principale"
 
-#: header.php:33
+#: header.php:39
+msgid "Changer de langue"
+msgstr "Changer de langue"
+
+#: header.php:40
 msgid "Le site est actuellement en"
 msgstr "Le site est actuellement en"
 
 #: index.php:10
 msgid "Vous vous êtes perdu ?"
 msgstr "Vous vous êtes perdu ?"
+
+#: index.php:18
+msgid "Retourner à l‘accueil"
+msgstr "Retourner à l‘accueil"
 
 #: single-project.php:9
 msgid "Voir le site"
