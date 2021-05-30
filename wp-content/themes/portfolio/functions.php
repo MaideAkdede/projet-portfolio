@@ -1,4 +1,16 @@
 <?php
+/*
+ * Return the form relates to the current lang
+ * */
+function formLang()
+{
+    if(get_locale() == 'fr_BE'){
+        return  do_shortcode('[contact-form-7 id="96" title="Formulaire de Contact"]');
+    } else{
+        return  do_shortcode('[contact-form-7 id="97" title="Contact Form"]');
+    }
+}
+
 /* *****
  * Return the defined polylang languages
  * *****/
@@ -8,6 +20,7 @@ function pll_languages()
         'raw' => 1
     ]);
 }
+
 /* *****
  * Return the defined current polylang language
  * *****/
@@ -15,7 +28,7 @@ function pll_languages()
 function p_current_language()
 {
     foreach (pll_languages() as $lang) {
-        if($lang['current_lang']) return $lang;
+        if ($lang['current_lang']) return $lang;
     }
     return null;
 }
@@ -96,11 +109,13 @@ function p_assets($path)
 {
     return rtrim(get_template_directory_uri(), '/') . '/public/' . ltrim($path, '/');
 }
+
 /* *****
  * Load text domain
  * *****/
 add_action('after_setup_theme', 'p_load_textdomain');
 
-function p_load_textdomain() {
+function p_load_textdomain()
+{
     load_textdomain('p', get_stylesheet_directory() . '/lang/' . get_locale() . '.mo');
 }

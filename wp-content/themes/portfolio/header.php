@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?php if (is_front_page()) {
-            echo 'Maïde Akdede | ';
+            echo 'Ma&iuml;de Akdede | ';
             echo bloginfo('description');
         } else {
             wp_title('');
-            echo ' | Maïde Akdede';
+            echo ' | Ma&iuml;de Akdede';
         }; ?>
     </title>
     <link rel="stylesheet" href="<?= p_assets('/css/theme.css') ?>">
@@ -23,7 +23,7 @@
     <h1 class="header__title sro"><?= is_front_page() ? bloginfo('description') : trim(wp_title('Maïde Akdede | ')); ?></h1>
 
     <div class="header__menu menu">
-        <a class="menu__logo" href="/">Maïde Akdede</a>
+        <a class="menu__logo" href="/">Ma&iuml;de Akdede</a>
         <div class="menu__wrapper">
 
             <nav class="menu__nav nav">
@@ -48,7 +48,10 @@
                             <li class="lang__li">
                                 <a href="<?= $lang['url']; ?>" class="lang__link" hreflang="<?= $lang['locale']; ?>"
                                    title="<?= $lang['name']; ?>"
-                                ><?= $lang['slug']; ?></a>
+                                >
+                                    <img class="lang__img" src=" <?= $lang['flag']; ?>" alt="<?= $lang['name']; ?>">
+                                    <?= $lang['slug']; ?>
+                                 </a>
                             </li>
                         <?php endforeach; ?>
                     </ul>
