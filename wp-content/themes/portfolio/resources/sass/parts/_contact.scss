@@ -1,0 +1,131 @@
+.contact {
+  &__text {
+    color: $gray;
+    line-height: 1.2rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    & .p{
+      margin: 0;
+    }
+  }
+}
+.form {
+  width: 80vw;
+  max-width: 1000px;
+  & label {
+    font-family: $title;
+    font-size: $size_20;
+    letter-spacing: 1px;
+    flex: none;
+    display: block;
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  & br {
+    display: block;
+    content: "";
+    height: 5px;
+  }
+
+  & p {
+    margin: 1.2rem 0;
+  }
+
+  & input:not([type='submit']), textarea {
+    width: 100%;
+    font-size: $size_18;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 0.7rem 0 0.7rem 0.25rem;
+    color: $white;
+    font-weight: lighter;
+    font-family: $text;
+    &:focus, &:hover{
+      animation: colorBorder 4s infinite;
+      background-color: $black;
+      color: $white;
+    }
+  }
+
+  & textarea {
+    height: 1.5em;
+  }
+
+  & input[type='submit'] {
+    font-family: $title;
+    font-size: $size_20;
+    font-weight: $weight_medium;
+    color: black;
+
+    transition: 0.35s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    min-width: 100px;
+    width: 165px;
+    padding: 0.65rem 1.25rem;
+    background-color: $white;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    fill: $black;
+    margin-left: auto;
+    &:focus, &:hover{
+      cursor: pointer;
+      color: white;
+      background-color: black;
+      fill: black;
+    }
+  }
+}
+
+.active_label {
+  animation: color 4s infinite;
+  text-decoration: underline;
+}
+
+@keyframes colorBorder {
+  0% {
+    border-bottom: 4px solid white;
+  }
+  25% {
+    border-bottom: 4px solid #6666fa;
+
+  }
+  50% {
+    border-bottom: 4px solid #5137cd;
+  }
+  75% {
+    border-bottom: 4px solid #c29af5;
+
+  }
+  100% {
+    border-bottom: 4px solid white;
+  }
+}
+
+@keyframes color {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #6666fa;
+
+  }
+  50% {
+    color: #5137cd;
+  }
+  75% {
+    color: #c29af5;
+
+  }
+  100% {
+    color: white;
+  }
+}

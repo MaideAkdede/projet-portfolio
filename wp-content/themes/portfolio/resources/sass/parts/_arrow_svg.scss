@@ -1,0 +1,40 @@
+:root {
+  --width-svg: 65px;
+  --stroke-width: 3px;
+  --stroke-total-lengh: 52.999996185302734;
+}
+
+.svg {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50vw - (var(--width-svg) / 2));
+  width: var(--width-svg);
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+
+  & line, & polyline {
+    stroke-width: 0;
+    stroke-dasharray: var(--stroke-total-lengh);
+    stroke-dashoffset: var(--stroke-total-lengh);
+    transition: animation;
+    animation: dash 2s ease alternate infinite;
+  }
+
+  &__hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: var(--stroke-total-lengh);
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-width: var(--stroke-width);
+  }
+}

@@ -1,0 +1,49 @@
+.button {
+  font-family: $title;
+  font-size: $size_20;
+  font-weight: $weight_medium;
+  color: black;
+  transition: 0.35s ease;
+  display: flex;
+  justify-content: center;
+  min-width: 100px;
+  width: 165px;
+  margin: 0.5rem 0.5rem;
+  padding: 0.65rem 1.25rem;
+  background-color: $white;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  fill: $black;
+
+  &__unfilled {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(1px);
+    border: 1px solid $white;
+    fill: $white;
+
+    &:hover, &:focus {
+      color: $black;
+      background-color: $white;
+      border: 1px solid $black;
+      fill: $black;
+      text-decoration: underline;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+    }
+  }
+
+  &__filled:hover, &__filled:focus {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(1px);
+    border: 1px solid $white;
+    fill: $white;
+    text-decoration: underline;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+  }
+
+  &__svg {
+    padding-left: 0.5rem;
+  }
+
+}

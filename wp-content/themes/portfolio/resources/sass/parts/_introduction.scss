@@ -1,11 +1,12 @@
 .introduction {
   min-width: 150px;
-  max-width: 80%;
+  max-width: 55ch;
   text-align: center;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: 2s ease-in-out;
 
   &__title, &__title__hidden {
     font-family: $title;
@@ -13,12 +14,11 @@
     margin: 0.75rem 0;
     letter-spacing: 0.2rem;
   }
-
   &__text {
     font-size: $size_18;
     line-height: 150%;
+    color: $gray;
   }
-
   &__buttons {
     margin-top: 0.5rem;
     display: flex;
@@ -26,25 +26,5 @@
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
-  }
-}
-
-.button {
-  font-family: $title;
-  font-size: $size_20;
-  font-weight: $weight_medium;
-  color: black;
-
-  display: block;
-  min-width: 120px;
-  margin: 0.5rem 0.5rem;
-  padding: 0.65rem 1.25rem;
-  background-color: $white;
-  border-radius: 25px;
-
-  &__unfilled {
-    color: $white;
-    background-color: black;
-    border: 1px solid white;
   }
 }

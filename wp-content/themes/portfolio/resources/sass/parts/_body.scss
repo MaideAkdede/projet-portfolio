@@ -12,16 +12,33 @@ body{
   color: white;
   font-family: $text;
   font-weight: lighter;
+  overflow-x: hidden;
 }
 h2{
   font-family: $title;
   font-weight: $weight_medium;
 }
 section{
-  min-height: calc(100vh - 58px);
-  padding-top: $size_64;
-  margin: 0 $size_24;
+  min-height: calc(100vh);
+}
+section:first-of-type{
+  padding-top: 0;
+}
+section:last-of-type{
+  min-height: calc(80vh);
+}
+section > h2 {
+  font-size: $size_32;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .main{
-  min-height: 100vh;
+  //max-height: 90vh;
+  flex-grow: 1;
+}
+p{
+  font-size: $size_18;
 }

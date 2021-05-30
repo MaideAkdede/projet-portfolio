@@ -1,0 +1,36 @@
+.lost{
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  &__message{
+    padding: 2rem 0;
+    font-size: $size_48;
+    font-family: $title;
+  }
+  &__home-button{
+    display: grid;
+    grid-gap: 7px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 20px 1fr;
+    column-gap: 5px;
+    width: fit-content;
+    max-width: 300px;
+    padding: 0.65rem 1.25rem;
+  }
+  &__text{
+    color: $gray;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.svg__home{
+  padding: 1px 0;
+  transform: rotate(90deg);
+}
