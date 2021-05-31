@@ -13,9 +13,12 @@
     font-size: $size_48;
     margin: 0.75rem 0;
     letter-spacing: 0.2rem;
+    padding: 0 2rem;
   }
   &__text {
     font-size: $size_18;
+    padding: 0 2rem;
+
     line-height: 150%;
     color: $gray;
   }

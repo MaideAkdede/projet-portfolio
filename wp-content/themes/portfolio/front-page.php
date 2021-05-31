@@ -45,7 +45,6 @@
     </div>
     <section class="projects" id="projects">
         <h2 class="projects__title title"><?= __('Mes projets', 'p'); ?></h2>
-        <div class="line"></div>
         <div class="projects__wrapper">
             <?php
             $projects = new WP_Query([

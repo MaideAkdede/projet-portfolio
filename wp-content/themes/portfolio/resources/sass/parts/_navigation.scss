@@ -8,6 +8,7 @@
   font-size: $size_18;
   font-weight: $weight_medium;
   letter-spacing: 1px;
+  transition: all .65s ease;
   &__menu{
     min-height: 58px;
     height: 100%;

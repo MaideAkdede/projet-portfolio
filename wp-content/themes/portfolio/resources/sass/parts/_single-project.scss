@@ -1,28 +1,103 @@
+.single-project{
+  margin: 2rem auto 0;
+  padding: 2rem;
+  max-width: 1200px;
+  &__wrapper, {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+  }
+  & .separation{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  &__title{
+    margin: 0 auto 2rem;
+    letter-spacing: 1px;
+    font-size: $size_32;
+    font-family: $title;
+    font-weight: $weight_medium;
+    text-align: center;
+  }
+  & .button{
+    align-self: center;
+    margin: 1rem auto 2rem;
+    &:hover, &:focus {
+      color: $white;
+      background-color: $black;
+      border: 1px solid $white;
+      fill: $black;
+      text-decoration: underline;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+    }
+  }
+  & .text{
+    max-width: 50ch;
+    min-width: 25ch;
+    height: 100%;
+    line-height: 150%;
+    &:nth-child(1){
+      text-align: center;
+      align-self: center;
+    }
+  }
+  &__wysiwyg{
+    margin: 2rem 0 2rem;
+  }
+  &__image{
+    align-self: center;
+    width: 100%;
+    max-width: 1000px;
+    & .image{
+    width : 100%;
+    }
+  }
+}
+.colors_container{
+  margin: 2rem 0;
+}
 .colors{
   display: flex;
+  justify-content: center;
+  &__title{
+    text-align: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
 }
 .color{
   height: 64px;
   width: 64px;
   border-radius: 50%;
+  &:nth-child(2){
+    position: relative;
+    left: -1.5rem;
+    z-index: -1;
+  }
+  &:nth-child(3){
+    position: relative;
+    left: -3rem;
+    z-index: -2;
+  }
+  &:nth-child(4){
+    position: relative;
+    left: -4.5rem;
+    z-index: -3;
+  }
+  &:nth-child(5){
+    position: relative;
+    left: -6rem;
+    z-index: -4;
+  }
 }
-.color:nth-child(2){
-  position: relative;
-  left: -1.5rem;
-  z-index: -1;
-}
-.color:nth-child(3){
-  position: relative;
-  left: -3rem;
-  z-index: -2;
-}
-.color:nth-child(4){
-  position: relative;
-  left: -4.5rem;
-  z-index: -3;
-}
-.color:nth-child(5){
-  position: relative;
-  left: -6rem;
-  z-index: -4;
+p > a {
+  text-decoration: underline;
+  &:hover, &:focus{
+    font-weight: bold;
+  }
 }

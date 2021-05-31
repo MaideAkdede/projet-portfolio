@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Projet Portfolio Traduction\n"
-"POT-Creation-Date: 2021-05-29 01:01+0200\n"
-"PO-Revision-Date: 2021-05-29 01:02+0200\n"
+"POT-Creation-Date: 2021-05-31 22:38+0200\n"
+"PO-Revision-Date: 2021-05-31 22:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -19,15 +19,15 @@ msgstr ""
 msgid "Pied de page"
 msgstr "Pied de page"
 
-#: footer.php:5
+#: footer.php:7
 msgid "Langues"
 msgstr "Langues"
 
-#: footer.php:21
+#: footer.php:24
 msgid "Adresse mail"
 msgstr "Adresse mail"
 
-#: footer.php:22
+#: footer.php:25
 msgid "Contactez-moi par mail"
 msgstr "Contactez-moi par mail"
 
@@ -35,7 +35,7 @@ msgstr "Contactez-moi par mail"
 msgid "Développeur Front-End"
 msgstr "Développeur Front-End"
 
-#: front-page.php:10 front-page.php:89 index.php:23
+#: front-page.php:10 front-page.php:89 index.php:24
 msgid "Contactez-moi"
 msgstr "Contactez-moi"
 
@@ -63,15 +63,27 @@ msgstr "Voir le projet"
 msgid "À propos"
 msgstr "À propos"
 
-#: header.php:30
+#: front-page.php:93
+msgid "Vous avez des questions ?"
+msgstr "Vous avez des questions ?"
+
+#: front-page.php:94
+msgid "Vous souhaitez qu‘on travaille ensemble ? "
+msgstr "Vous souhaitez qu‘on travaille ensemble ?"
+
+#: header.php:27
+msgid "Ouvrir"
+msgstr "Ouvrir"
+
+#: header.php:34
 msgid "Navigation principale"
 msgstr "Navigation principale"
 
-#: header.php:39
+#: header.php:43
 msgid "Changer de langue"
 msgstr "Changer de langue"
 
-#: header.php:40
+#: header.php:44
 msgid "Le site est actuellement en"
 msgstr "Le site est actuellement en"
 
@@ -79,7 +91,11 @@ msgstr "Le site est actuellement en"
 msgid "Vous vous êtes perdu ?"
 msgstr "Vous vous êtes perdu ?"
 
-#: index.php:18
+#: index.php:12
+msgid "La page que vous recherchez est introuvable..."
+msgstr "La page que vous recherchez est introuvable…"
+
+#: index.php:19
 msgid "Retourner à l‘accueil"
 msgstr "Retourner à l‘accueil"
 

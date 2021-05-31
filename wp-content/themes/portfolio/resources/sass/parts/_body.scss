@@ -7,6 +7,9 @@
   padding: 0;
   border: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: black;
   color: white;
@@ -20,6 +23,7 @@ h2{
 }
 section{
   min-height: calc(100vh);
+  box-sizing: border-box;
 }
 section:first-of-type{
   padding-top: 0;
