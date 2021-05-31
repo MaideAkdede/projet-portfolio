@@ -24,8 +24,12 @@
 
     <div class="header__menu menu">
         <a class="menu__logo" href="/">Ma&iuml;de Akdede</a>
+        <a title="<?= __('Ouvrir', 'p'); ?>" class="burger burger-hidden" >
+            <p class="burger__lines"></p>
+            <p class="burger__lines"></p>
+            <p class="burger__lines"></p>
+        </a>
         <div class="menu__wrapper">
-
             <nav class="menu__nav nav">
                 <h2 class="nav__title sro"><?= __('Navigation principale', 'p'); ?></h2>
                 <?php foreach (p_menu('main') as $link): foreach ($link->classes as $link->class): ?>
@@ -49,7 +53,6 @@
                                 <a href="<?= $lang['url']; ?>" class="lang__link" hreflang="<?= $lang['locale']; ?>"
                                    title="<?= $lang['name']; ?>"
                                 >
-                                    <img class="lang__img" src=" <?= $lang['flag']; ?>" alt="<?= $lang['name']; ?>">
                                     <?= $lang['slug']; ?>
                                  </a>
                             </li>
@@ -57,6 +60,7 @@
                     </ul>
                 </div>
             </div>
+            <a href=""></a>
         </div>
 
     </div>
