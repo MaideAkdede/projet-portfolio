@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <section class="introduction">
-        <h2 class="introduction__title__hidden"><?= __('Développeur Front-End', 'p'); ?></h2>
+        <h2 class="introduction__title__hidden" itemprop="jobTitle"><?= __('Développeur Front-End', 'p'); ?></h2>
         <p class="introduction__title"></p>
         <p class="introduction__text"><?php the_field('introduction_text'); ?></p>
         <div class="introduction__buttons">

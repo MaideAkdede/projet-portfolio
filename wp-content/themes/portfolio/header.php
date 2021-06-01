@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 initial-scale=1, viewport-fit=cover"">
     <title>
         <?php if (is_front_page()) {
             echo 'Ma&iuml;de Akdede | ';
@@ -12,10 +12,16 @@
             echo ' | Ma&iuml;de Akdede';
         }; ?>
     </title>
+
+    <link rel="icon" sizes="32x32" href="wp-content/themes/portfolio/resources/favicon/fav-ico.png">
+    <link rel="shortcut icon" sizes="32x32" href="wp-content/themes/portfolio/resources/favicon/fav-ico.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="wp-content/themes/portfolio/resources/favicon/fav-ico.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="wp-content/themes/portfolio/resources/favicon/fav-ico.png">
+
     <link rel="stylesheet" href="<?= p_assets('/css/theme.css') ?>">
     <?php wp_head(); ?>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/SportsTeam">
 <canvas id="canvas"></canvas>
 <script src="<?= p_assets('/js/app.js') ?>"></script>
 
@@ -23,7 +29,7 @@
     <h1 class="header__title sro"><?= is_front_page() ? bloginfo('description') : trim(wp_title('Maïde Akdede | ')); ?></h1>
 
     <div class="header__menu menu">
-        <a class="menu__logo" href="/">Ma&iuml;de Akdede</a>
+        <a class="menu__logo" itemprop="name" href="/">Ma&iuml;de Akdede</a>
         <a title="<?= __('Ouvrir', 'p'); ?>" class="burger burger-hidden" >
             <p class="burger__lines"></p>
             <p class="burger__lines"></p>
@@ -60,7 +66,6 @@
                     </ul>
                 </div>
             </div>
-            <a href=""></a>
         </div>
 
     </div>
