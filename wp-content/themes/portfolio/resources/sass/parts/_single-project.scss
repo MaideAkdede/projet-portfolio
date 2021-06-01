@@ -1,5 +1,5 @@
 .single-project{
-  margin: 2rem auto 0;
+  margin: 4rem auto 0;
   padding: 2rem;
   max-width: 1200px;
   &__wrapper, {
@@ -7,7 +7,12 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-
+    & p > a {
+      text-decoration: underline;
+      &:hover, &:focus{
+        font-weight: bold;
+      }
+    }
   }
   & .separation{
     align-self: center;
@@ -26,13 +31,30 @@
   & .button{
     align-self: center;
     margin: 1rem auto 2rem;
+    &__www{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+     max-width: 230px;
+      & .www{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        fill: black;
+      }
+    }
     &:hover, &:focus {
       color: $white;
       background-color: $black;
       border: 1px solid $white;
-      fill: $black;
       text-decoration: underline;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+      & .www{
+        fill: $white;
+        stroke-width: 6px;
+        stroke: $white;
+      }
     }
   }
   & .text{
@@ -93,11 +115,5 @@
     position: relative;
     left: -6rem;
     z-index: -4;
-  }
-}
-p > a {
-  text-decoration: underline;
-  &:hover, &:focus{
-    font-weight: bold;
   }
 }

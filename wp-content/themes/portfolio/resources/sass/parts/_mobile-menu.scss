@@ -117,3 +117,8 @@
     border-left: 1px solid rgba(255, 255, 255, 0.25);
   }
 }
+@media screen and (max-width: 420px) {
+  .menu__logo{
+    font-size: $size_24;
+  }
+}
