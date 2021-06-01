@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Projet Portfolio Traduction\n"
-"POT-Creation-Date: 2021-05-31 22:38+0200\n"
-"PO-Revision-Date: 2021-05-31 22:46+0200\n"
+"POT-Creation-Date: 2021-06-01 14:49+0200\n"
+"PO-Revision-Date: 2021-06-01 14:53+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -31,11 +31,55 @@ msgstr "E-mail address"
 msgid "Contactez-moi par mail"
 msgstr "Send me an e-mail"
 
+#: footer.php:38
+msgid "Portfolio de Maide Akdede"
+msgstr "Maide Akdede’s Portfolio"
+
+#: footer.php:59
+msgid "Belge"
+msgstr "Belgian"
+
+#: footer.php:60
+msgid "Liège, Belgique"
+msgstr "Liege, Belgium"
+
+#: footer.php:61
+msgid "06-05-1997"
+msgstr "1997-06-05"
+
+#: footer.php:64
+msgid "français"
+msgstr "French"
+
+#: footer.php:65
+msgid "anglais"
+msgstr "English"
+
+#: footer.php:66
+msgid "turc"
+msgstr "Turkish"
+
+#: footer.php:67
+msgid "arabe"
+msgstr "Arabic"
+
+#: footer.php:69
+msgid "Étudiante en Techniques Graphique, option Web-Multimédia"
+msgstr "Web-Multimedia, Graphics Design Student"
+
+#: footer.php:71
+msgid "Développeur front-end, Web design et développement"
+msgstr "Front-end developer, web design and development"
+
+#: footer.php:92
+msgid "Belgique"
+msgstr "Belgium"
+
 #: front-page.php:4
 msgid "Développeur Front-End"
 msgstr "Front-End Web Developer"
 
-#: front-page.php:10 front-page.php:89 index.php:24
+#: front-page.php:10 front-page.php:88 index.php:24
 msgid "Contactez-moi"
 msgstr "Get in Touch"
 
@@ -55,35 +99,35 @@ msgstr "Scroll to see the next content"
 msgid "Mes projets"
 msgstr "My projects"
 
-#: front-page.php:72 single-project.php:61
+#: front-page.php:71 single-project.php:70
 msgid "Voir le projet"
 msgstr "Go to the project"
 
-#: front-page.php:82
+#: front-page.php:81
 msgid "À propos"
 msgstr "About me"
 
-#: front-page.php:93
+#: front-page.php:92
 msgid "Vous avez des questions ?"
 msgstr "Do you have additional questions?"
 
-#: front-page.php:94
+#: front-page.php:93
 msgid "Vous souhaitez qu‘on travaille ensemble ? "
 msgstr "Would you like us to work together?"
 
-#: header.php:27
+#: header.php:33
 msgid "Ouvrir"
 msgstr "Open"
 
-#: header.php:34
+#: header.php:40
 msgid "Navigation principale"
 msgstr "Main Navigation"
 
-#: header.php:43
+#: header.php:49
 msgid "Changer de langue"
 msgstr "Change the language"
 
-#: header.php:44
+#: header.php:50
 msgid "Le site est actuellement en"
 msgstr "The website is in"
 
@@ -103,14 +147,14 @@ msgstr "Go back home"
 msgid "Voir le site"
 msgstr "View the website"
 
-#: single-project.php:25
+#: single-project.php:22
 msgid "Palette de couleur"
 msgstr "Color palette"
 
-#: single-project.php:37
+#: single-project.php:39
 msgid "Aucun projet n'a été trouvé."
 msgstr "No project found."
 
-#: single-project.php:50
-msgid "Mes derniers projets"
+#: single-project.php:45
+msgid "Mes derniers projects"
 msgstr "My last projects"
