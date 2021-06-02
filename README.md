@@ -1,12 +1,19 @@
 # Projet Portfolio
 
-> - Lien du repo de l'énoncé [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
-> - [Voir le Moodboard Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
-> - [Voir prototype du Wirefrale sur Figma](https://www.figma.com/proto/cOStMv5i71WCXRan9UENLg/Maide---Portfolio---Wireframe?node-id=0%3A1&scaling=min-zoom)
+> - Lien du repo de l'énoncé : [hepl-dw/projet-portfolio](https://github.com/hepl-dw/projet-portfolio)
+> - [Voir le Moodboard sur Milanote](https://app.milanote.com/1Ld0M11FRplq4n?p=Qzrn0toKuX9)
+> - [Voir le prototype du Wireframe sur Figma](https://www.figma.com/proto/cOStMv5i71WCXRan9UENLg/Maide---Portfolio---Wireframe?node-id=0%3A1&scaling=min-zoom)
 > - [Voir le prototype du Design sur Figma](https://www.figma.com/proto/2k3LKrrU1XuKrCThmkhKRT/Maide---Portfolio---DESIGN?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1)
 
 ***
-## 1. Présentation
+## 0. Introduction
+
+Prénom NOM : Maïde AKDEDE
+URL du site : http://maide-ak.me/
+
+Le site a été développé avec Wordpress.
+
+## 1. Présentation du projet 
 
 Le Projet portfolio, est un projet scolaire qui consiste à designer et développer notre propre portfolio en ligne.
 Le but principal est de mettre en avant nos compétences et nos qualités afin de pousser notre futur employeur à nous engager ou encore attirer des futurs clients. Le portfolio comprend donc une brève présentation de nous-même et une liste de tous nos projets réalisés.
@@ -48,7 +55,7 @@ Le but principal est de mettre en avant nos compétences et nos qualités afin d
 
   1. **Barre de Navigation** (sticky)
       - logo : Prénom Nom
-      - liens pour renvoyer aux différentes desction de la page : Accueil | `Accueil  | Projets | À propos | Contact`
+      - liens pour renvoyer aux différentes sections de la page : Accueil | `Accueil  | Projets | À propos | Contact`
       - bouton pour changer de langue `Fr|En`
   2. **Contenu de la landing, première section**
       - Mon status "étudiante en web design" (typing effect?)
@@ -64,11 +71,12 @@ Le but principal est de mettre en avant nos compétences et nos qualités afin d
       - Une description de moi
   4. **Section Contact**
       - titre de la section
-      - Texte qui pousse à interagir: contactez-moi si vous avez des questions, suggestions, CV etc
+      - Texte qui pousse à interagir.
       - formulaire de contact
   5. **Footer**
-      - lien vers github, linkdin, adresse mail de contact
-      - © et année de réalisation du site
+     - adresse mail de contact (au cas où le formulaire ne suffit pas)
+     - changement de langue
+     - © et année de réalisation du site + année actuelle
 
 
 - **Page d'un projet**
@@ -76,6 +84,7 @@ Le but principal est de mettre en avant nos compétences et nos qualités afin d
   - Menu Navigation
   - Titre du projet
   - Une image 'screen' de la landing page
+  - Afficher les couleurs utilisées (charte graphique) en bulle
   - description du projet
   - bouton CTA pour afficher le site
   - Proposer 3 dernières projets à voir
