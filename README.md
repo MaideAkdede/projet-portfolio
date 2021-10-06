@@ -8,10 +8,11 @@
 ***
 ## 0. Introduction
 
-Prénom NOM : Maïde AKDEDE
-URL du site : http://maide-ak.me/
+  Prénom NOM : Maïde AKDEDE
 
-Le site a été développé avec Wordpress.
+  URL du site : http://maide-ak.me/
+
+  Le site a été développé avec Wordpress.
 
 ## 1. Présentation du projet 
 
