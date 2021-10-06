@@ -1,7 +1,61 @@
-.about{
-  &__wysiwyg{
+.about {
+  &__wysiwyg {
     max-width: 65ch;
     padding: 0 2rem;
     line-height: 150%;
+
+    & h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1em;
+    }
+
+    & h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1em;
+      text-decoration: underline;
+      color: rgb(169, 149, 206);
+    }
+
+    & progress {
+      margin-left: 1rem;
+      background-color: #d4d4d4;
+      border-radius: 10px;
+    }
+
+    & progress::-webkit-progress-bar {
+      background-color: rgba(0, 0, 0, 0.61);
+      border-radius: 10px;
+      animation: bar 1s infinite;
+    }
+
+    & progress::-webkit-progress-value {
+      border-radius: 10px;
+      background-color:  #d4d4d4;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+    }
+
+    & progress::-moz-progress-bar {
+    }
+
+    & p {
+      margin-bottom: 1.35rem;
+    }
+    & ul{
+      list-style-type: disc;
+    }
+    & li {
+      display: flex;
+      flex-direction: row;
+      margin-left: 1.25rem;
+
+      & p {
+        width: 130px;
+      }
+    }
+
+    & p > strong {
+      font-weight: $weight_medium;
+      color: rgb(169, 149, 206);
+    }
   }
 }

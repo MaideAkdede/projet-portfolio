@@ -18,7 +18,7 @@
     align-self: center;
     display: flex;
     flex-wrap: wrap;
-
+    margin-top: 2rem;
   }
   &__title{
     margin: 0 auto 2rem;
@@ -74,6 +74,12 @@
     align-self: center;
     width: 100%;
     max-width: 1000px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
     & .image{
     width : 100%;
     }

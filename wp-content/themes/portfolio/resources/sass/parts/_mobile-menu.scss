@@ -1,15 +1,31 @@
+.menu-nojs{
+  display: flex;
+
+  & .lang__current{
+    display: none;
+  }
+  & .lang__other{
+    visibility: initial;
+    position: initial;
+    opacity: 1;
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+  }
+}
 .burger-hidden{
   display: none;
 }
 @media screen and (max-width: 750px) {
   .menu {
     &__wrapper {
-      animation: translateX 3s;
+      animation: translateX 1s;
       position: fixed;
       top: 0;
       right: 0;
       height: 100vh;
-      width:50vw;
+      width:100vw;
       background: radial-gradient(rgb(5, 12, 26), #000);
       border-left: 1px solid rgba(255, 255, 255, 0.25);
       //animation: leftBorder 5s infinite;
@@ -17,10 +33,10 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      box-shadow: -50vw 0px rgba(0, 0, 0, 0.9);
-      transform: translateX(100vw);
+      //box-shadow: -50vw 0px rgba(0, 0, 0, 0.9);
+      transform: translateX(150vw);
       opacity: 0;
-      transition: opacity 1s, transform 2s;
+      transition: opacity 1s, transform 1s;
     }
     &__nav{
       display: flex;

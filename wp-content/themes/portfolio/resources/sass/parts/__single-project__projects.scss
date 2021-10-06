@@ -1,9 +1,28 @@
-.projects{
-  &__other{
+.projects {
+  &__other {
     margin: 2rem auto;
     max-width: 1000px;
-    & .projects{
-      &__title{
+
+    & .projects {
+      &__wrapper {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        flex-grow: 1;
+        overflow-x: auto;
+
+        & .projects__container {
+          margin: 2rem 1rem;
+          height: auto;
+          flex-shrink: 0;
+
+          &:first-of-type {
+            margin-left: 2rem;
+          }
+        }
+      }
+      &__title {
         margin-bottom: 0.45rem;
         padding: 0 2rem;
         letter-spacing: 1px;
@@ -11,10 +30,24 @@
         font-family: $title;
         font-weight: $weight_medium;
       }
-      &__container{
-        justify-content: flex-start;
-        align-items: center;
-      }
     }
   }
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    &__other {
+      & .projects {
+        &__wrapper{
+          & .projects__thumbnail {
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+
+  }
+
+
 }

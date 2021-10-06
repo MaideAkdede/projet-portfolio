@@ -1,5 +1,5 @@
 :root {
-  --border-radius: 15px;
+  --border-radius: 20px;
 }
 
 .title {
@@ -71,6 +71,8 @@ section {
     border-bottom-right-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
     overflow: hidden;
+    line-height: 0;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.15);
   }
   &__container:not(:last-of-type) {
     margin: 1rem 2rem 2rem;
@@ -80,11 +82,15 @@ section {
     order: 3;
     font-size: $size_20;
     text-align: center;
-    margin-top: -2.75rem;
+    line-height: 1.5;
+    margin-top: -3.35rem;
     padding: 0.75rem 0;
     color: $white;
     background-color: rgba(0,0,0,0.7);
     backdrop-filter: blur(2px);
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    overflow: hidden;
   }
   &__thumbnail {
     order: 1;
@@ -92,6 +98,8 @@ section {
     max-height: 300px;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
   }
   &__link {
     transition: all .3s ease-in-out;
@@ -102,6 +110,7 @@ section {
     align-items: center;
     height: 100%;
     width: 100%;
+    line-height: 1.5;
     & span{
       display: none;
       border: 1px solid #000;
@@ -123,6 +132,8 @@ section {
     display: block;
     object-fit: fill;
     object-position: center;
+    width: 100%;
+    height: auto;
   }
 }
 .active__link{
