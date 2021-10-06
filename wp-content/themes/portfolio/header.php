@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 initial-scale=1, viewport-fit=cover"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 initial-scale=1, viewport-fit=cover">
     <title>
         <?php if (is_front_page()) {
             echo 'Ma&iuml;de Akdede | ';
@@ -30,12 +30,12 @@
 
     <div class="header__menu menu">
         <a class="menu__logo" itemprop="name" href="/">Ma&iuml;de Akdede</a>
-        <a title="<?= __('Ouvrir', 'p'); ?>" class="burger burger-hidden" >
+        <a title="<?= __('Ouvrir', 'p'); ?>" class="burger-js burger-hidden" >
             <p class="burger__lines"></p>
             <p class="burger__lines"></p>
             <p class="burger__lines"></p>
         </a>
-        <div class="menu__wrapper">
+        <div class="menu-js menu-nojs">
             <nav class="menu__nav nav">
                 <h2 class="nav__title sro"><?= __('Navigation principale', 'p'); ?></h2>
                 <?php foreach (p_menu('main') as $link): foreach ($link->classes as $link->class): ?>
@@ -69,6 +69,5 @@
         </div>
 
     </div>
-
 </header>
 <main class="main">
