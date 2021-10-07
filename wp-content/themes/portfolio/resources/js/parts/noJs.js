@@ -9,6 +9,7 @@ export default class noJs {
         this.menu = document.querySelector('.menu-js');
 
         this.menu.classList.remove('menu-nojs');
+        this.menu.style.display = '';
         this.burger.classList.add('burger');
         this.menu.classList.add('menu__wrapper');
     }

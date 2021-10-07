@@ -35,7 +35,7 @@
             <p class="burger__lines"></p>
             <p class="burger__lines"></p>
         </a>
-        <div class="menu-js menu-nojs">
+        <div style="display: none;" class="menu-js menu-nojs">
             <nav class="menu__nav nav">
                 <h2 class="nav__title sro"><?= __('Navigation principale', 'p'); ?></h2>
                 <?php foreach (p_menu('main') as $link): foreach ($link->classes as $link->class): ?>
